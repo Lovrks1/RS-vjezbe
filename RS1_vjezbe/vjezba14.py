@@ -1,7 +1,5 @@
 # Vježba 14
 
-
-#provjerava je li broj prost
 def isPrime(n):
     if n <= 1:
         return False  
@@ -10,8 +8,6 @@ def isPrime(n):
             return False
     return True
 
-
-#vraća sve proste brojeve u rasponu
 def primes_in_range(start, end):
     prosti = []
     for broj in range(start, end + 1):
@@ -19,8 +15,6 @@ def primes_in_range(start, end):
             prosti.append(broj)
     return prosti
 
-
-#
 print(f"{7} → {isPrime(7)}")
 print(f"{10} → {isPrime(10)}")
 print(primes_in_range(1, 10))

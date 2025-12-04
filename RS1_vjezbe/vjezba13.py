@@ -1,12 +1,9 @@
 # Vježba 13
 
-#Funkcija koja vraća n-torku s prvim i zadnjim elementom liste
+
 def prvi_i_zadnji(lista):
     return (lista[0], lista[-1])
 
-
-#Funkcija koja vraća n-torku s maksimalnim i minimalnim elementom
-# bez korištenja min() i max()
 def maks_i_min(lista):
     maks = lista[0]
     min_ = lista[0]
@@ -19,11 +16,8 @@ def maks_i_min(lista):
 
     return (maks, min_)
 
-
-#Funkcija koja vraća presjek dva skupa
 def presjek(skup1, skup2):
     return skup1 & skup2 
-
 
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(prvi_i_zadnji(lista1))   

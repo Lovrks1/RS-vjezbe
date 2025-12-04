@@ -8,7 +8,7 @@ class Proizvod:
         print(f"Naziv: {self.naziv}, Cijena: {self.cijena}, Dostupno: {self.dostupna_kolicina}")
 
 
-# početno stanje skladišta
+
 skladiste = [
     Proizvod("Televizor", 3000, 5),
     Proizvod("Mobitel", 2000, 15)

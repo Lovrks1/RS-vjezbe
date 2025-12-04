@@ -1,5 +1,4 @@
 # Vježba 16
-
 import heapq  
 
 def dijkstra(graph, start):
@@ -24,8 +23,6 @@ def dijkstra(graph, start):
 
     return distances
 
-
-# primjer grafa
 graph = {
     'A': [('B', 1), ('C', 4)],
     'B': [('A', 1), ('C', 2), ('D', 5)],
@@ -33,6 +30,5 @@ graph = {
     'D': [('B', 5), ('C', 1)]
 }
 
-# poziv funkcije
 rezultat = dijkstra(graph, 'A')
 print(rezultat)
